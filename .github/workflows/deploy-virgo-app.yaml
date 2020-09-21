@@ -1,6 +1,6 @@
 name: Deploy Virgo App
 env:
-   DEFAULT_LOCATION: uksouth
+   DEFAULT_LOCATION: uksouth 
    VIRGO_ALIAS: zvirgo
 #on:
 #  push:
