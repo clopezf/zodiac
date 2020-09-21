@@ -1,6 +1,6 @@
 name: Deploy All Infrastructure
 env:
-   DB_ADMIN_PASSWORD: ${{ secrets.DB_ADMIN_PASSWORD }}
+   DB_ADMIN_PASSWORD: ${{ secrets.DB_ADMIN_PASSWORD }} 
 
 on: [workflow_dispatch]
  
