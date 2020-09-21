@@ -6,7 +6,7 @@ env:
 #  push:
 #    paths:
 #    - scorpio-api/Application/**
-
+ 
 on: [workflow_dispatch]
 jobs:
   build_and_deploy:
