@@ -1,12 +1,12 @@
 #!/bin/bash
 
 export DEFAULT_LOCATION=uksouth
-export SIRMIONE_ALIAS=clsirmione
-export LIMONE_ALIAS=cllimone
-export SCORPIO_ALIAS=clscorpio
-export VIRGO_ALIAS=clvirgo
-export LIBRA_ALIAS=cllibra
-export ZODIAC_ALIAS=clzodiac
+export SIRMIONE_ALIAS=cplsirmione
+export LIMONE_ALIAS=cpllimone
+export SCORPIO_ALIAS=cplscorpio
+export VIRGO_ALIAS=cplvirgo
+export LIBRA_ALIAS=cpllibra
+export ZODIAC_ALIAS=cplzodiac
 export DB_ADMIN_USER=claudia
 export AAD_DOMAIN=xekina.onmicrosoft.com
 export AAD_TENANTID=3bc03625-3a0a-48c5-8aa5-12f22e401fff
