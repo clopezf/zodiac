@@ -1,19 +1,19 @@
 #!/bin/bash
 
 export DEFAULT_LOCATION=uksouth
-export SIRMIONE_ALIAS=cplsirmione
-export LIMONE_ALIAS=cpllimone
-export SCORPIO_ALIAS=cplscorpio
-export VIRGO_ALIAS=cplvirgo
-export LIBRA_ALIAS=cpllibra
-export ZODIAC_ALIAS=cplzodiac
+export SIRMIONE_ALIAS=clsirmione
+export LIMONE_ALIAS=cllimone
+export SCORPIO_ALIAS=clscorpio
+export VIRGO_ALIAS=clvirgo
+export LIBRA_ALIAS=cllibra
+export ZODIAC_ALIAS=clzodiac
 export DB_ADMIN_USER=claudia
 export AAD_DOMAIN=xekina.onmicrosoft.com
-export AAD_TENANTID=3bc03625-3a0a-48c5-8aa5-12f22e401fff
-export AAD_CLIENTID=ccee7608-940c-42d9-ba86-a2845ef3a808
+export AAD_TENANTID=72f988bf-86f1-41af-91ab-2d7cd011db47
+export AAD_CLIENTID=a4345e10-2f97-42bd-9d75-1448f87917c1
 
 # Whatever you set zodiac instance to will be tagged onto your azure resources, and enable you to access all the different components as a cohesive set
-export ZODIAC_INSTANCE=Happy_Wanderer
+export ZODIAC_INSTANCE=ZodiacApp
 
 echo "<h2>Environment Variables</h2>" >> deployment-log.html
 echo "<p>ZODIAC_INSTANCE:$ZODIAC_INSTANCE</p>" >> deployment-log.html
